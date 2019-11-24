@@ -11,8 +11,6 @@
 class IMyMath
 {
 public:
-	IMyMath();
-	virtual ~IMyMath();
 	virtual int add(int a,int b)=0;//add
 };
 

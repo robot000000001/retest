@@ -14,14 +14,6 @@ extern "C"   void createObject(IMyMath **obj,char *flageName)
       if(strcmp(flageName,"add")==0)
 	*obj=new MyMath();
 }
-IMyMath::IMyMath()
-{
-
-}
-IMyMath::~IMyMath()
-{
-
-}
 MyMath::MyMath()
 {
 
