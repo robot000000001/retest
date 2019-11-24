@@ -32,6 +32,7 @@ MyMath::~MyMath()
 int MyMath::add(int a,int b)
 {
   int cc=1;
+   int e=0;
    int c=a+b;
     return c;
 }
