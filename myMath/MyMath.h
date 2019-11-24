@@ -13,7 +13,7 @@
       public:
     	MyMath();
     	virtual ~MyMath();
-    	virtual int add(int a,int b);
+    	virtual int add(int a,int b);//add
     };
    extern "C"   void createObject(IMyMath **obj);
 #endif

@@ -13,7 +13,7 @@ class IMyMath
 public:
 	IMyMath();
 	virtual ~IMyMath();
-	virtual int add(int a,int b)=0;
+	virtual int add(int a,int b)=0;//add
 };
 
 #endif /* IMYMATH_H_ */
