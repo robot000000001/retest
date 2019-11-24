@@ -15,5 +15,5 @@
     	virtual ~MyMath();
     	virtual int add(int a,int b);//add
     };
-   extern "C"   void createObject(IMyMath **obj);
+   extern "C"   void createObject(IMyMath **obj,char *flageName);
 #endif

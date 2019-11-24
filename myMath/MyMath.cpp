@@ -8,8 +8,10 @@
 #include "MyMath.h"
 
 
-extern "C"   void createObject(IMyMath **obj)
+extern "C"   void createObject(IMyMath **obj,char *flageName)
 {
+     *obj=NULL;
+      if(strcmp(flageName,"add")==0)
 	*obj=new MyMath();
 }
 IMyMath::IMyMath()
