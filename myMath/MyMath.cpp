@@ -31,7 +31,7 @@ MyMath::~MyMath()
 //加法 11
 int MyMath::add(int a,int b)
 {
-   int d=0;
+   int e=0;
    int c=a+b;
     return c;
 }
