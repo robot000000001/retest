@@ -28,7 +28,7 @@ MyMath::~MyMath()
 {
 
 }
-//加法 
+//加法 11
 int MyMath::add(int a,int b)
 {
    int c=a+b;
